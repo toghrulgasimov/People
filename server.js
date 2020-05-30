@@ -20,9 +20,8 @@ async function f() {
     })
     app.get('/qu', async (req, res) => {
         console.log(req.query);
-        let d = await db.collection('adlar3').find(req.query).count();
         let dd = await db.collection('adlar3').find(req.query).limit(500).toArray();
-        let data = {cnt:d, d : dd};
+        let data = {d : dd};
         console.log(dd);
         res.send(data);
     })

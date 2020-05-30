@@ -168,7 +168,8 @@
         $scope.ata = '';
         $scope.unvan = '';
         $scope.hamsi = '';
-        $scope.ans = {cnt:0, d:[]};
+        $scope.ans = {d:[]};
+        $scope.ans = {d:[]};
         $scope.ar = [];
         $scope.loading = false;
 
@@ -253,7 +254,6 @@
     <div class="spinner-border" ng-show="loading" style="width: 3rem; height: 3rem; position: absolute; left: 10%; top: 10%;" role="status">
         <span class="sr-only">Loading...</span>
     </div>
-    <h5>{{ans.cnt}}</h5>
 
     <table class="table table-striped table-bordered" style="height: 300px; overflow-y: auto;">
         <thead>

@@ -137,9 +137,9 @@ let mongoUtil = require( './mongoUtil' );
 
 
     let index = 0;
-    for(let i = 1; i < 125; i++) {
+    for(let i = 1; i <= 125; i++) {
         rayonlar[i+""] = rayonlar[i+""].toLowerCase();
-        let tt = await db.collection("adlar3").updateMany({s:"1"}, {$set:{rayon:rayonlar[i+""]}});
+        let tt = await db.collection("adlar3").updateMany({s:(i+"")}, {$set:{rayon:rayonlar[i+""]}});
         console.log(i);
     }
 

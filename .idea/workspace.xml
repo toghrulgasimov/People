@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="790629c3-58bf-4f94-a373-aae822fd1ed0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ans.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e.html" beforeDir="false" afterPath="$PROJECT_DIR$/e.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insanlar/adlar3.bson" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/insanlar/adlar3.metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setrayon.js" beforeDir="false" afterPath="$PROJECT_DIR$/setrayon.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,8 +80,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Node.js.setrayon.js" />
-        <item itemvalue="Node.js.filehelper.js" />
         <item itemvalue="Node.js.server.js" />
+        <item itemvalue="Node.js.filehelper.js" />
         <item itemvalue="Node.js.clean.js" />
         <item itemvalue="Node.js.cr.js" />
       </list>
