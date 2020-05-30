@@ -24,7 +24,7 @@ async function f() {
             req.query.rayon = {$regex: ".*"+req.query.rayon+".*"}
             console.log(req.query);
         }
-        let dd = await db.collection('adlar3').find(req.query).limit(500).toArray();
+        let dd = await db.collection('adlar3').find(req.query).limit(1000).toArray();
         let data = {d : dd};
         console.log(dd);
         res.send(data);
