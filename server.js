@@ -7,7 +7,7 @@ async function f() {
     const fs = require('fs');
     const express = require('express')
     const app = express()
-    const port = 3000;
+    const port = 3005;
 
     let cilentM = await mongoUtil.connectToServer();
     let db = await mongoUtil.getDb();
@@ -20,6 +20,10 @@ async function f() {
     })
     app.get('/qu', async (req, res) => {
         console.log(req.query);
+        if(req.query.rayon != undefined) {
+            req.query.rayon = {$regex: ".*"+req.query.rayon+".*"}
+            console.log(req.query);
+        }
         let dd = await db.collection('adlar3').find(req.query).limit(500).toArray();
         let data = {d : dd};
         console.log(dd);
