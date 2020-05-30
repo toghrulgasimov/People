@@ -168,6 +168,7 @@
         $scope.ata = '';
         $scope.unvan = '';
         $scope.hamsi = '';
+        $scope.rayon = '';
         $scope.ans = {d:[]};
         $scope.ans = {d:[]};
         $scope.ar = [];
@@ -177,7 +178,7 @@
             $scope.loading = true;
 
             var data = {ad:$scope.ad.toLowerCase(),soyad:$scope.soyad.toLowerCase(),te:$scope.dogum.toLowerCase(),ata:$scope.ata.toLowerCase()
-                ,adres:$scope.unvan.toLowerCase(),hamsi:$scope.hamsi.toLowerCase()};
+                ,adres:$scope.unvan.toLowerCase(),hamsi:$scope.hamsi.toLowerCase(),rayon:$scope.rayon.toLowerCase()};
             for(let x in data) {
                 if(data[x].length == 0) {
                     delete data[x];
@@ -232,6 +233,13 @@
             <span class="input-group-text"style="width: 70px;" id="basic-addon1">Ata</span>
         </div>
         <input type="text" class="form-control"  aria-label="Username" aria-describedby="basic-addon1"ng-model="ata">
+    </div>
+
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <span class="input-group-text"style="width: 70px;" id="basic-addon1">Rayon</span>
+        </div>
+        <input type="text" class="form-control"  aria-label="Username" aria-describedby="basic-addon1"ng-model="rayon">
     </div>
 
     <div class="input-group mb-3">
