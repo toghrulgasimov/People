@@ -10,9 +10,9 @@ let mongoUtil = require( './mongoUtil' );
 
     let index = 0;
 
-    for(let i = 1800; i <= 2020; i++) {
+    for(let i = 1848; i <= 2020; i++) {
         let r = await db.collection("adlar3").updateMany({te:i+""}, {$set:{te:i}});
-        console.log(r);
+        //console.log(r);
         console.log(i);
     }
     console.log("DONEEEEE");
