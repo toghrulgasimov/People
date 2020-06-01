@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="790629c3-58bf-4f94-a373-aae822fd1ed0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clean.js" beforeDir="false" afterPath="$PROJECT_DIR$/clean.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e.html" beforeDir="false" afterPath="$PROJECT_DIR$/e.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,11 +57,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.clean.js">
-    <configuration name="clean.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/clean.js" working-dir="$PROJECT_DIR$">
+  <component name="RunManager" selected="JavaScript Debug.e.html">
+    <configuration name="e.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/People/e.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="cr.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/cr.js" working-dir="$PROJECT_DIR$">
+    <configuration name="clean.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/clean.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="filehelper.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/filehelper.js" working-dir="$PROJECT_DIR$">
@@ -74,11 +75,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.e.html" />
         <item itemvalue="Node.js.clean.js" />
         <item itemvalue="Node.js.server.js" />
         <item itemvalue="Node.js.setrayon.js" />
         <item itemvalue="Node.js.filehelper.js" />
-        <item itemvalue="Node.js.cr.js" />
       </list>
     </recent_temporary>
   </component>
@@ -101,7 +102,7 @@
       <workItem from="1590605015359" duration="755000" />
       <workItem from="1590765885968" duration="36155000" />
       <workItem from="1590886461640" duration="4000" />
-      <workItem from="1591025829662" duration="2067000" />
+      <workItem from="1591025829662" duration="3482000" />
     </task>
     <servers />
   </component>

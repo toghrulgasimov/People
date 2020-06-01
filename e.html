@@ -165,6 +165,8 @@
         $scope.ad = '';
         $scope.soyad = '';
         $scope.dogum = '';
+        $scope.dogumMin = '';
+        $scope.dogumMax = '';
         $scope.ata = '';
         $scope.unvan = '';
         $scope.hamsi = '';
@@ -178,7 +180,8 @@
             $scope.loading = true;
 
             var data = {ad:$scope.ad.toLowerCase(),soyad:$scope.soyad.toLowerCase(),te:$scope.dogum.toLowerCase(),ata:$scope.ata.toLowerCase()
-                ,adres:$scope.unvan.toLowerCase(),hamsi:$scope.hamsi.toLowerCase(),rayon:$scope.rayon.toLowerCase()};
+                ,adres:$scope.unvan.toLowerCase(),hamsi:$scope.hamsi.toLowerCase(),rayon:$scope.rayon.toLowerCase(), dogumMin:$scope.dogumMin,
+                dogumMax:$scope.dogumMax};
             for(let x in data) {
                 if(data[x].length == 0) {
                     delete data[x];
@@ -226,6 +229,20 @@
             <span class="input-group-text"style="width: 70px;" id="basic-addon1">Dogum</span>
         </div>
         <input type="text" class="form-control"  aria-label="Dogum" aria-describedby="basic-addon1"ng-model="dogum">
+    </div>
+
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <span class="input-group-text"style="width: 105px;" id="basic-addon1">Dogum Min</span>
+        </div>
+        <input type="text" class="form-control"  aria-label="Dogum Min" aria-describedby="basic-addon1"ng-model="dogumMin">
+    </div>
+
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <span class="input-group-text"style="width: 105px;" id="basic-addon1">Dogum Max</span>
+        </div>
+        <input type="text" class="form-control"  aria-label="Dogum Max" aria-describedby="basic-addon1"ng-model="dogumMax">
     </div>
 
     <div class="input-group mb-3">
