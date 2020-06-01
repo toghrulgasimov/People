@@ -100,10 +100,25 @@
       <workItem from="1590575402116" duration="1165000" />
       <workItem from="1590605015359" duration="755000" />
       <workItem from="1590765885968" duration="36155000" />
+      <workItem from="1590886461640" duration="4000" />
+      <workItem from="1591025829662" duration="86000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
