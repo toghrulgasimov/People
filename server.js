@@ -35,7 +35,11 @@ async function f() {
 
         }
         if(req.query.dogumMax != undefined) {
-            req.query.te = {$lte: parseInt(req.query.dogumMax)};
+            if(req.query.dogumMin != undefined) {
+                req.query.te["$lte"] = parseInt(req.query.dogumMax);
+            }else {
+                req.query.te = {$lte: parseInt(req.query.dogumMax)};
+            }
         }
         delete req.query.dogumMin;
         delete req.query.dogumMax;
