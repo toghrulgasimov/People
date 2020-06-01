@@ -39,6 +39,7 @@ async function f() {
         }
         delete req.query.dogumMin;
         delete req.query.dogumMax;
+        console.log(req.query)
         let dd = await db.collection('adlar3').find(req.query).limit(1000).toArray();
         let data = {d : dd};
         console.log(dd);
