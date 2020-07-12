@@ -2,6 +2,7 @@ const fs = require('fs');
 
 let  s = fs.readFileSync('./yerler') + "";
 
+// preprocessing
 let a = s.split('\n');
 console.log("let rayonlar = {}")
 for(let i = 0; i < a.length; i++) {
